@@ -1,0 +1,31 @@
+#The recommended folder structure for each of the Proficy systems is given below.
+#The below structure can be referenced before creating folders in your local model repos.
+#version: 1.0 
+
+
+[yourGitInitializedFolder]/
+  |-masterProjections/
+  |  |-[projectionType]/
+  |    |-[projectionSchema].json
+  |-globalTypeDefinitions/
+  |  |-typeName/
+  |    |-definiton/
+  |      |-variables.json
+  |      |-containments.json
+  |      |-substitutionParameters.json
+  |    |-templates/ 
+  |      |-[templateName].json
+  |-resources/
+  |-[yourProficySystemModelStoreFolder]/
+  |  |-[folder4YourClassOne]/
+  |       |- projections/
+  |          |-[projectionName].json
+  |       |- objects/
+  |       |- subsitituionParameters/
+  |  |-resources/
+  |     |-screens/
+  |     |-scripts/
+  |     |-others/
+  |  |-datasources/
+  |     |-[dataSourceOneConfig].json
+  |     |-[dataSourceTwoConfig].json     
